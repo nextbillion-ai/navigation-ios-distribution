@@ -32,7 +32,7 @@ targets: [
 ]
 ```
 
-If your app also uses the Maps SDK directly, keep depending on `maps-ios-distribution` as usual; Swift Package Manager uses the one version both packages agree on.
+Each navigation release pins the exact Maps and Turf versions it was tested with. If your app also depends on `maps-ios-distribution` or `turf-distribution` directly, make sure your version requirement allows those versions.
 
 ## Carthage
 
